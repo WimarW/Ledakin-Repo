@@ -7,7 +7,7 @@ Not everything belongs in Git. Build outputs, log files, OS metadata, and `.env`
 ## Part A: Ignore Patterns, Negation & `git check-ignore`
 ### Step 1: Create temporary files that shouldn't be committed
 
-**RUN IN THE REPOSITORY ROOT DIRECTORY**
+**RUN IN THE REPOSITORY ROOT DIRECTORY**<br>
 **Windows: PowerShell:**
 ```powershell
 New-Item -ItemType Directory -Force Module-2/temp | Out-Null
@@ -33,7 +33,7 @@ Open `.gitignore` at the repository root and add.
 !important.log
 temp/
 ```
-**DO NOT FORGET TO SAVE**
+**---DO NOT FORGET TO SAVE---**
 
 Now check what Git sees:
 ```bash
@@ -47,6 +47,7 @@ git check-ignore -v modules/02-ignoring-and-keeping/debug.log
 - `git check-ignore -v` tells you the exact file and line number causing a path to be ignored.
 
 *(Clean up `Module-2/important.log` or commit it before continuing so it doesn't stay untracked later.)*
+
 ---
 
 ## Part B: Untracking an Already-Committed File (`git rm --cached`)
