@@ -62,7 +62,6 @@ git commit -m "Staged Note.txt"
 ```text
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        Module-1/README.md
         Module-1/todo.md
 ```
 To change that, we stage it.
@@ -82,8 +81,8 @@ So far, we've only recorded the commits locally, meaning other people won't be a
 ```bash
 git push origin main
 ```
-
-
 You should see two clean, separate commits at the top of your history and a clean working tree in `git status`.
+
+
 ---
 **NEXT** [Module-02](../Module-2/README.md)
