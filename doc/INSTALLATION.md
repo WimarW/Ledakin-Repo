@@ -10,7 +10,7 @@ This document details the steps of installing git and configuring it to work wit
             <li> <a href="#linux"> Linux </a>
             <li> <a href="#verify-installation"> Verify Installaion </a>
         </ul>
-    <li> <a href="#installing-git">Installing Git</a> 
+    <li> <a href="#configuring-identity">Configuring Identity</a> 
 </ol>
 
 # Installing Git 
