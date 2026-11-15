@@ -10,6 +10,21 @@ Funfact, Git has tracked its own source code almost from the very beginning. So 
 ## Setup Instructions
 To start with the hands-on, simply create a new repository with this one as a template. This can be done by clicking the `Use Template` button on the github page.
 
+## Repository Directory Structure
+```text
+Ledakin-Repo/
+├── README.md          # Intro, Instructions, Extras
+├──doc/
+│  ├── CHEATSHEET.md   # Git Command Cheatsheet 
+│  └── INSTALLATION.md # Git Install Guids
+├── Module-1/          # Basics
+├── Module-2/          # Ignoring and Keeping
+├── Module-3/          # Branching
+├── Module-4/          # Merging
+├── Module-5/          # Merge Conflicts
+└── Module-6/          # Undoing, Stashing 
+
+```
 
 ## Extras
 <ol>
