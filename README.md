@@ -10,6 +10,25 @@ Funfact, Git has tracked its own source code almost from the very beginning. So 
 ## Setup Instructions
 To start with the hands-on, simply create a new repository with this one as a template. This can be done by clicking the `Use Template` button on the github page.
 
+After creating the repository click the `< > code` button on the github repository page and copy the link.
+
+1. Ensure git is installed
+    ```bash
+    git --version
+    ```
+    If it doesn't return git version, follow the instructions in [INSTALLATION](doc/INSTALLATION.md)
+
+2. Clone repository to you computer
+
+    ```bash
+    git clone <copied-url>
+    ```
+
+3. Move to the repository root directory
+    ```bash
+    cd <repo-name>
+    ```
+
 ## Repository Directory Structure
 ```text
 Ledakin-Repo/
