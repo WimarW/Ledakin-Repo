@@ -13,6 +13,7 @@ To start with the hands-on, simply create a new repository with this one as a te
 
 ## Extras
 <ol>
-<li> This <a href="./doc/INSTALLATION.md"> INSTALLATION.md </a> contains the installation process of git and its required initial configuration
+<li> This <a href="./doc/INSTALLATION.md"> INSTALLATION.md </a> contains the installation process of git and its required initial configuration.
 <li> This <a href="./doc/CHEATSHEET.md"> CHEATSHEET.md </a> contains some commonly used git commands and a short explanation of its purpose and usage.
+<li> It is recomendded to use <a href="https://www.conventionalcommits.org/en/v1.0.0/"> Semantc Commits </a> in commit messages. 
 </ol>
