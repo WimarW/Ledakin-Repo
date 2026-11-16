@@ -4,6 +4,7 @@
 - Clean navigation bar
 - Responsive layout
 - Sticky top header bar
+- Search bar in header
 
 ---
 Keep this middle section untouched so parallel branch edits merge cleanly.
