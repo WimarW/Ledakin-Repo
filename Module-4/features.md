@@ -3,7 +3,7 @@
 ## Header Features
 - Clean navigation bar
 - Responsive layout
-- (Header updates go here)
+- Sticky top header bar
 
 ---
 Keep this middle section untouched so parallel branch edits merge cleanly.
