@@ -16,4 +16,4 @@ Line D: Keyboard shortcuts registered
 ## Footer Features
 - Copyright notice
 - Links to documentation
-- (Footer updates go here)
+- Newsletter signup in footer
