@@ -1,0 +1,7 @@
+=== Git Cafe Menu ===
+Espresso: $3.00
+Latte: $4.50
+Croissant: $3.25
+
+=== Seasonal Specials ===
+- Pumpkin Spice Latte
