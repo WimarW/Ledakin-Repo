@@ -2,14 +2,6 @@
 
 Merging integrates commits from another branch into your current branch. Depending on whether the branches have diverged, Git performs either a **Fast-Forward** or a **Three-Way Merge**.
 
-## Setup for This Module
-
-Make sure your working tree is clean on `main`, then run from the repository root:
-
-- **PowerShell:** `.\setup\init-exercises.ps1 04`
-- **macOS / Linux / Git Bash:** `./setup/init-exercises.sh 04`
-
-*(Need to retry? Add `-Reset` in PowerShell or `--reset` in Bash.)*
 
 ---
 
@@ -75,4 +67,4 @@ git branch -d feature/three-way
 
 ---
 
-**Next:** [Module 05 — Merge Conflict Resolution](../05-merge-conflicts/README.md)
+**Next:** [Module 05 — Merge Conflict Resolution](../Module-5/README.md)
