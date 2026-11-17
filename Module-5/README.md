@@ -59,17 +59,17 @@ If you open `menu.txt` in VS Code, you'll see clickable actions above the marker
 ### Step 4: Mark resolved and complete the merge
 Tell Git you fixed the file by staging it:
 ```bash
-git add modules/05-merge-conflicts/menu.txt
+git add Module-5/menu.txt
 ```
 Run `git status`—it should now say `All conflicts fixed but you are still merging`.
 
 Finish the merge commit:
 ```bash
-git commit --no-edit
+git commit -m "fix: fixed merge conflict"
 ```
 *(Or run `git commit` to customize the merge commit message.)*
 
-Inspect your merge commit with `git log --oneline --graph -n 5`, then optionally clean up the merged branch:
+Inspect your merge commit with `git log --oneline --graph -n 5`, then **optionally** clean up the merged branch:
 ```bash
 git branch -d conflict/menu-pricing
 ```
