@@ -40,9 +40,7 @@ Ledakin-Repo/
 ├── Module-2/          # Ignoring and Keeping
 ├── Module-3/          # Branching
 ├── Module-4/          # Merging
-├── Module-5/          # Merge Conflicts
-└── Module-6/          # Undoing, Stashing 
-
+└── Module-5/          # Merge Conflicts
 ```
 
 ## Extras
