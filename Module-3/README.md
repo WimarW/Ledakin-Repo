@@ -57,7 +57,7 @@ git switch -c feature/roadmap-update
 1. Open [roadmap.md](roadmap.md) and replace `<REPLACE_WITH_CLUE>` with the passphrase from `clue.txt` (and mark the checkbox `[x]`).
 2. Stage and commit on `feature/roadmap-update`:
    ```bash
-   git add modules/03-branching/roadmap.md
+   git add Module-3/roadmap.md
    git commit -m "Update roadmap with secret passphrase"
    ```
 
